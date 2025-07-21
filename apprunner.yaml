@@ -5,7 +5,6 @@ build:
     build:
       - echo "Building Dify application"
 run:
-  runtime-version: latest
   command: gunicorn --bind 0.0.0.0:8080 --workers 1 --timeout 200 --preload --max-requests 1000 --max-requests-jitter 50 --log-level info app:app
   network:
     port: 8080
