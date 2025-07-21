@@ -1,5 +1,5 @@
 {
-  "ServiceName": "dify-app",
+  "ServiceName": "dify-app-v2",
   "SourceConfiguration": {
     "AuthenticationConfiguration": {
       "ConnectionArn": "arn:aws:apprunner:ap-northeast-1:989087871498:connection/dify-github-connection/12057202fcc048488fb4a87369c890e6"
